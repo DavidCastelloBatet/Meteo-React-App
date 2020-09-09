@@ -1,10 +1,8 @@
 import React from "react";
 
 import Titles from "./components/Titles";
-import Form from "./components/Form";
+import Formulari from "./components/Formulari";
 import Weather from "./components/Weather";
-
-import "./App.css";
 
 const API_KEY = "6a82eda18412b68b42d3db6d7068bc22";
 
@@ -44,7 +42,7 @@ class App extends React.Component {
         country: undefined,
         humidity: undefined,
         description: undefined,
-        error: "Si us plau, introduir valor.",
+        error: "Si us plau, introduir els valors.",
       });
     }
   };
@@ -53,7 +51,7 @@ class App extends React.Component {
     return (
       <>
         <Titles />
-        <Form getWeather={this.getWeather} />
+        <Formulari getWeather={this.getWeather} />
         <Weather
           temperature={this.state.temperature}
           city={this.state.city}

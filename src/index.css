@@ -1,1 +1,24 @@
+:root {
+  --vermell: #eb1321;
+  --verd: #1d5e2d;
+  --groc: #e9e09f;
+  --bg: #c0cdde;
+  --bggrad: linear-gradient(
+    180deg,
+    rgba(238, 233, 195, 1) 0%,
+    rgb(231, 216, 99) 25%,
+    rgb(206, 238, 211) 50%,
+    rgb(145, 236, 221) 100%
+  );
+  --bggradinvers: linear-gradient(
+    180deg,
+    rgb(145, 236, 221) 0%,
+    rgb(206, 238, 211) 30%,
+    rgb(192, 205, 222) 100%
+  );
+}
 
+body {
+  background: var(--bg);
+  text-align: center;
+}
