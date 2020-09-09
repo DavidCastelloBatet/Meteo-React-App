@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import img from "../img/Vinyes.jpg";
+//import img from "./public/img/Vinyes.jpg";
 
 //Estils del component
+/* background-image: url(${img});*/
 const Header = styled.div`
-  background-image: url(${img});
+  background-image: url("https://2.bp.blogspot.com/-aax_Gr21kwE/TkTuB8wUtYI/AAAAAAAABBY/nSuIX7NjVCs/s1600/Vinyes+i+pins+%25282%2529.jpg");
   background-position: 60% 20%;
   height: 15rem;
   padding: 10px;
