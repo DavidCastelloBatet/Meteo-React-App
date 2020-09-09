@@ -1,3 +1,12 @@
+## Link al Projecte (Netlify) :  https://zen-curran-211455.netlify.app
+
+Projecte creat amb REACT class components.
+CSS : Styled Components
+API from : Open Weather Map
+Deploy : Netlify sites
+
+==============================================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
